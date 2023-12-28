@@ -1,0 +1,154 @@
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .gallery-column {
+    flex: 20%;
+    padding: 0 4px;
+    overflow: hidden;
+  }
+
+  .gallery-image {
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    .gallery-column {
+        flex: 40%;
+    }
+  }
+  @media (max-width: 768px) {
+    .gallery-column {
+        flex: 100%;
+    }
+  }
+
+.card {
+    margin-top: 8px;
+    position: relative;
+ 
+}
+
+.position-abs {
+    position: absolute;
+}
+
+.display-f {
+    display: flex;
+}
+
+.tags-container {
+    left: 15px;
+    bottom: 5px;
+    color: white;
+    font-weight: 500;
+    /* opacity: 0; */
+    /* transition: 0.3s ease; */
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Allow interactions with the underlying content */
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .card:hover::before {
+    cursor: pointer;
+    box-shadow: inset 0 5px 70px rgba(0, 0, 0, 0.7); /* Adjust values as needed for a stronger vignette effect */
+  }
+
+  .tag {
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+  .gallery-image:hover .tag {
+    opacity: 0.7 ;
+    cursor: pointer;
+  }
+
+.add-container {
+    top: 8px;
+    left: 10px;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.select-type-image {
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-type-image > button {
+    min-height: 25px;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.select-type-image > button:hover {
+    border: 1px solid rgb(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.justify-content-c {
+    justify-content: center;
+}
+
+.main-container {
+    position: relative;
+}
+.gallery-footer {
+    width: 100%;
+    align-items: center;
+    height: 250px;
+    bottom: 0;
+}
+
+.btn-load-more {
+    height: 30px;
+}
+
+.gallery-footer {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+  }
+
+.btn-categorie {
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: baseline;
+    margin: 20px 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-categorie:hover {
+    background-color: rgb(187, 201, 201);
+}
+
+.btn-icon  {
+    height: 20px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+span {
+    margin: auto;
+}
+
+.categorie-btn-container {
+    padding: 4px;
+    align-items: flex-start;
+}
