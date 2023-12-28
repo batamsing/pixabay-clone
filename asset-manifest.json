@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pixabay-clone/static/css/main.a5908166.css",
+    "main.js": "/pixabay-clone/static/js/main.62e6d76c.js",
+    "static/media/background-image.jpg": "/pixabay-clone/static/media/background-image.7d67fa15ac1978d1c2d5.jpg",
+    "static/media/logo-long-black.png": "/pixabay-clone/static/media/logo-long-black.8d7d8cf2fe73724c8a49.png",
+    "static/media/logo-long.png": "/pixabay-clone/static/media/logo-long.f7b858ce180d9bca44b0.png",
+    "static/media/twitter.png": "/pixabay-clone/static/media/twitter.fdb4757c642b48ae28d5.png",
+    "static/media/instagram.png": "/pixabay-clone/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/camera-logo.png": "/pixabay-clone/static/media/camera-logo.70b357015042582e8f5e.png",
+    "static/media/brush-logo.png": "/pixabay-clone/static/media/brush-logo.35510ec03b70c36d7d03.png",
+    "static/media/search.jpg": "/pixabay-clone/static/media/search.a5709e175286fba85ecf.jpg",
+    "static/media/music-logo.webp": "/pixabay-clone/static/media/music-logo.dd88767c167ee17e63ec.webp",
+    "index.html": "/pixabay-clone/index.html",
+    "main.a5908166.css.map": "/pixabay-clone/static/css/main.a5908166.css.map",
+    "main.62e6d76c.js.map": "/pixabay-clone/static/js/main.62e6d76c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5908166.css",
+    "static/js/main.62e6d76c.js"
+  ]
+}
